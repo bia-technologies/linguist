@@ -713,9 +713,7 @@ disambiguations:
 - extensions: ['.pkl']
   rules:
     - language: Pkl
-      pattern:
-      - '^\s*(module|import|amends|extends|local|const|fixed|abstract|open|class|typealias|@\w+)\b'
-      - '^\s*[a-zA-Z0-9_$]+\s*(=|{|:)|^\s*`[^`]+`\s*(=|{|:)|for\s*\(|when\s*\('
+      pattern: '\A[ \t-\r]*(?:(?://[^\r\n]*(?:\r\n?|\n)|/\*(?:[^*]|\*+[^*/])*\*+/)[ \t-\r]*)*(?:(?:module|import|amends|extends|class|typealias|function|external|abstract|open|local|hidden|fixed|const)\b|@|(?:[a-z_$][A-Za-z0-9_$]*|`[^`\r\n]+`)[ \t-\r]*(?:=|\{|:))'
     - language: Pickle
 - extensions: ['.pl']
   rules:
