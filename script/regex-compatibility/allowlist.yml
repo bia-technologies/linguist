@@ -17,9 +17,6 @@ exceptions:
     location: "lib/linguist/heuristics.yml/disambiguations[extensions=.txt]/rules[language=Hosts File]/pattern"
     digest: cc094871efc9d2462c256e097bb2319710c032ef680e5af2d16431f1cee5d988
   - engine: rust
-    location: "lib/linguist/heuristics.yml/disambiguations[extensions=.r]/rules[language=Rez]/pattern"
-    digest: eb69fdcaa49d8065cb9d17a7f697a31206b54326533cf3c8eec69739b7d96d0c
-  - engine: rust
     location: "lib/linguist/heuristics.yml/disambiguations[extensions=.txt]/rules[language=Vim Help File]/pattern"
     digest: e065ca943f75b0c17996fa5ebdcbf7e14b095910f1b3fc459f5c1b463838b6c8
   - engine: rust
